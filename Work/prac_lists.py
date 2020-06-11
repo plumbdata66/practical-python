@@ -73,6 +73,103 @@ print("CAT" not in symlist)
 symlist.append("RHT")
 print(symlist)
 
+symlist.insert(1, "AA")
+print(symlist)
+
+symlist.remove("MSFT")
+print(symlist)
+
+symlist.append("YHOO")
+print(symlist)
+
+index = symlist.index("YHOO")
+print(index)
+
+print(symlist[5])
+
+print(symlist.count("YHOO"))
+
+symlist.remove("YHOO")
+print(symlist)
+
+print(symlist.count("YHOO"))
+
+## [Sorting]
+symlist.sort()
+print(symlist)
+
+symlist.sort(reverse=True)
+print(symlist)
+
+## [ Exercise: 1.24]
+print(symlist)
+
+a = ",".join(symlist)
+print(a)
+print(type(a))
+
+b = ":".join(symlist)
+print(b)
+
+c = "".join(symlist)
+print(c)
+
+## [ Exercise:1.25]
+nums = [101, 102, 103]
+items = ["spam", symlist, nums]
+print(items)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
