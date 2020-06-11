@@ -85,3 +85,5 @@ with gzip.open("Data/portfolio.csv.gz", "rt") as f:
 
 
 
+
+
